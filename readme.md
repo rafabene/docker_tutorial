@@ -10,6 +10,7 @@ First follow [installation steps](https://docs.docker.com/windows/step_one/) for
 Install all the components.
 
 > Mac: The docker binaries are in `/usr/local/bin` which you can access from your terminal.
+
 > Windows: The docker binaries lands in `C:\Program Files\Docker Toolbox` for Windows
 
 * * *
