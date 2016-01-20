@@ -9,8 +9,8 @@ First follow [installation steps](https://docs.docker.com/windows/step_one/) for
 
 Install all the components.
 
-> Mac: The docker binaries (docker, docker-machine, docker-compose) are in `/usr/local/bin` which you can access from your terminal.
-> Windows: The docker binaries (docker, docker-machine, docker-compose) lands in `C:\Program Files\Docker Toolbox` for Windows
+> Mac: The docker binaries are in `/usr/local/bin` which you can access from your terminal.
+> Windows: The docker binaries lands in `C:\Program Files\Docker Toolbox` for Windows
 
 * * *
 ##### Tip 1: where does the boot2docker VM ISO land on a Windows?
