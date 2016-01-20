@@ -14,15 +14,15 @@ Install all the components.
 > Windows: The docker binaries lands in `C:\Program Files\Docker Toolbox` for Windows
 
 * * *
-##### Tip 1: where does the boot2docker VM ISO land on a Windows?
+##### Tip 1: Where does the boot2docker VM ISO land on a Windows?
 Windows: `C:\Users\Burr\.docker\machine\cache\boot2docker.iso`
 
 Mac: `~/.docker/machine/cache/boot2docker.iso`
 * * *
 
-##### Tip 2: where does the boot2docker instance land on Windows installation of VirtualBox
+##### Tip 2: Where does the boot2docker instance land on Windows installation of VirtualBox?
 
-C:\Users\Burr\VirtualBox VMs\boot2docker-vm
+`C:\Users\Burr\VirtualBox VMs\boot2docker-vm`
 
 * * *
 ##### Tip 3: Window Size Width 160 - docker ps is best displayed with lots of width
