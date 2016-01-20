@@ -1,22 +1,22 @@
-Docker with boot2docker for Windows Tutorial
-============================================
+Docker with Docker Toolbox for Windows Tutorial
+===============================================
 
-This tutorial walks you through the basics of using a Java app server (WildFly) via a Linux container, running on Windows with boot2docker.  There are notes for people running on Macs as well.  
+This tutorial walks you through the basics of using a Java app server (WildFly) via a Linux container, running on Windows with Docker Toolbox.  There are notes for people running on Macs as well.  
 
-First follow [installation steps](https://docs.docker.com/installation/windows/) for boot2docker:
+First follow [installation steps](https://docs.docker.com/windows/step_one/) for Docker Toolbox:
 
 ![Alt text](/screenshots/installer.png?raw=true "Installer")
 
-Unless you already have VirtualBox installed, install all the components.
+Install all the components.
 
-> Mac: The docker and boot2docker binaries are in `/usr/local/bin` which you can access from your terminal.
-> Windows: The boot2docker binary lands in `C:\Program Files\Boot2Docker` for Windows
+> Mac: The docker binaries (docker, docker-machine, docker-compose) are in `/usr/local/bin` which you can access from your terminal.
+> Windows: The docker binaries (docker, docker-machine, docker-compose) lands in `C:\Program Files\Docker Toolbox` for Windows
 
 * * *
 ##### Tip 1: where does the boot2docker VM ISO land on a Windows?
-Windows: `C:\Users\Burr\.boot2docker\boot2docker.iso`
+Windows: `C:\Users\Burr\.docker\machine\cache\boot2docker.iso`
 
-Mac: `~/.boot2docker/boot2docker.iso`
+Mac: `~/.docker/machine/cache/boot2docker.iso`
 * * *
 
 ##### Tip 2: where does the boot2docker instance land on Windows installation of VirtualBox
@@ -41,16 +41,16 @@ You can make this change on the Boot2Docker Start command window as well
 
 #### Explore Docker
 
-1. Look for and select the `Boot2Docker Start` menu option in your Start Menu
+1. Look for and select the `Docker Quickstart Terminal` menu option in your Start Menu
 
-    ![Alt text](/screenshots/boot2docker_start_menu.png?raw=true "Start Menu")
+    ![Alt text](/screenshots/docker_quickstart_terminal.png?raw=true "Start Menu")
 
     >
     > Or use start.sh to launch the command prompt (not the normal Windows command prompt)
     >
-    > You should be able to double-click on start.sh in C:\Program Files\Boot2Docker for Windows
+    > You should be able to double-click on start.sh in C:\Program Files\Docker Toolbox
 
-    ![Alt text](/screenshots/boot2docker_start_sh.png?raw=true "start.sh")
+    ![Alt text](/screenshots/docker_toolbox_start.png?raw=true "start.sh")
 
 
     > If you successfully launch start.sh, it will execute `up`, `status` and `ip`, therefore you can skip to step 8 below.
